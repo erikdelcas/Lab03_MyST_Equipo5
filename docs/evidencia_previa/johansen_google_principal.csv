@@ -1,0 +1,2 @@
+Par,N entrenamiento,Fin entrenamiento,EG p,det_order,Rezagos VAR AIC,k_ar_diff,Traza r0,Crítico traza r0,Traza r<=1,Crítico traza r<=1,Eigen r0,Crítico eigen r0,Eigen r<=1,Crítico eigen r<=1,Rango traza,Rango eigen,Confirma rango 1
+GOOG–GOOGL,1938,2021-09-13,2.8619775546499757e-05,0,10,9,29.741485945626852,15.4943,8.26052660365675,3.8415,21.480959341970102,14.2639,8.26052660365675,3.8415,2,2,False

@@ -1,0 +1,29 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Datos descargados
+data/precios_ajustados.csv
+
+# Resultados diarios pesados y regenerables
+artifacts/*_backtest.csv
+
+# Archivos temporales de configuración
+artifacts/config_used.json

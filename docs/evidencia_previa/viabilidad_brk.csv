@@ -1,0 +1,2 @@
+Fecha de cierre,Precio A,Precio B,Acciones A,Acciones B,Exposición bruta mínima,Máximo permitido,¿Cabe con acciones enteras?,Comisión estimada entrada + salida (sin rebalanceos),Préstamo corto aproximado por día,Nota
+2026-11-04,869301.0,579.0900268554688,1,1500,1737936.0402832031,800000.0,False,4344.840100708008,5.954116438356165,"Costos estimados, no P&L ni backtest"
