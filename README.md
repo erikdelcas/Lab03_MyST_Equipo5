@@ -110,7 +110,7 @@ Lab03_MyST_Equipo5/
 ├── tests/                # Pruebas automatizadas
 ├── notebooks/            # Notebook principal
 ├── artifacts/            # Resultados regenerables CSV
-├── docs/reporte.pdf      # Reporte técnico
+├── docs/                 # Reporte ejecutivo (PDF), figuras y evidencia previa
 └── project_management/   # Gestión y contribuciones del equipo
 ```
 
@@ -128,7 +128,7 @@ Las tablas `artifacts/metrics.csv` y `artifacts/walkforward_oos_comparison.csv` 
 
 - [ ] Volver a ejecutar las pruebas y guardar el resultado obtenido.
 - [ ] Ejecutar toda la secuencia de scripts, regenerando artefactos con el código final.
-- [ ] Confirmar que notebook, dashboard y `docs/reporte.pdf` utilizan la **misma versión**.
+- [ ] Confirmar que notebook, dashboard y `docs/Lab03_Reporte_Ejecutivo.pdf` utilizan la **misma versión**.
 - [ ] Comprobar que Johansen móvil, bitácora, cifras walk-forward y rebalanceo se muestran sin errores.
 - [ ] Verificar que `.gitignore` excluye el entorno virtual, cachés y archivos no deseados; si excluye backtests diarios, regenerarlos para exponer.
 - [ ] Completar `project_management/` con integrantes, roles, fechas, sprints y retrospectiva **reales**.
