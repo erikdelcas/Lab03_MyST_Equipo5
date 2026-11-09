@@ -32,11 +32,11 @@ Las pruebas de cointegración y su estabilidad temporal no respaldan afirmacione
 3. Registrar cronología, responsables y decisiones durante el desarrollo, no al cierre.
 4. Preparar un procedimiento de instalación desde cero y ejecución previa a la exposición.
 
-## Registro del equipo — pendiente de evidencia
-- Integrante 1 / contribución concreta / evidencia: **[completar]**.
-- Integrante 2 / contribución concreta / evidencia: **[completar]**.
-- Integrante 3 / contribución concreta / evidencia: **[completar]**.
-- Fechas reales de hitos y bloqueos: **[completar]**.
-- Qué salió según el plan y qué se retrasó: **[completar con cronología real]**.
+## Registro del equipo
+- Adrián Marcelo Ballesteros Herrera / datos, screening, Johansen móvil, diagnóstico de señales, dashboard y notebook / evidencia: archivos a cargo en `project_management/charter.md`.
+- Erik del Castillo Román / filtros de Kalman, VECM, política de decisiones, pipeline y calibración walk-forward / evidencia: archivos a cargo en `project_management/charter.md`; integración en el repositorio (`bc90db3`, `464e384`).
+- Jesús Emmanuel Flores Cortés / backtest, costos, métricas, bitácora, rebalanceo y documentación de instalación / evidencia: archivos a cargo en `project_management/charter.md`; documentación (`8c708e7`, `0bd80be`, `1bec517`).
+- Fechas de hitos: inicio del proyecto el 2026-11-04, integración de la versión funcional el 2026-11-05, datos para Streamlit Cloud el 2026-11-06 y documentación el 2026-11-08.
+- Principal retraso: la elección de activos, por la extensa investigación que requirió.
 
 > Este texto resume resultados técnicos conocidos, pero no certifica autorías individuales ni cronología de sprints.

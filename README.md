@@ -72,7 +72,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-Si PowerShell bloquea `Activate.ps1` por la política de ejecución, habilitarla solo para la sesión actual con `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` y volver a activar. En `cmd` la activación es `.venv\Scriptsctivate.bat`. Las versiones de `requirements.txt` se fijaron trabajando en macOS con Python 3.14; si `pip` no encuentra *wheels* para tu versión de Python en Windows, revisar la versión del intérprete antes de cambiar dependencias.
+Si PowerShell bloquea `Activate.ps1` por la política de ejecución, habilitarla solo para la sesión actual con `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` y volver a activar. En `cmd` la activación es `.venv\Scripts\activate.bat`. Las versiones de `requirements.txt` se fijaron trabajando en macOS con Python 3.14; si `pip` no encuentra *wheels* para tu versión de Python en Windows, revisar la versión del intérprete antes de cambiar dependencias.
 
 **No incluyas `.venv/` en GitHub.** Si los datos no están cacheados, la descarga inicial requiere conexión.
 
@@ -96,6 +96,8 @@ El equipo obtuvo **36 pruebas aprobadas** tras la actualización del segundo fil
 Abrir `notebooks/Lab03_Principal.ipynb` en VS Code o Jupyter, seleccionar el intérprete `.venv` y ejecutar sus celdas en orden. El notebook **lee artefactos existentes**; regenerarlos primero mediante los comandos anteriores. La variable `pair` controla qué par se muestra en algunas figuras (`NWS_NWSA`, `GOOG_GOOGL` o `TLT_VGLT`).
 
 ### Dashboard para exposición
+
+Versión publicada: <https://lab03-equipo5.streamlit.app/>
 
 Abrir `http://localhost:8501` después de iniciar Streamlit. Cuenta con modo **Exposición** (objetivo, metodología, resultados y conclusiones) y modo **Análisis completo** (vistas ejecutiva/técnica, operaciones, Johansen móvil y walk-forward). El dashboard **lee CSV**: no recalcula precios ni entrena modelos por sí solo.
 
