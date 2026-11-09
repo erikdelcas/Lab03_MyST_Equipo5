@@ -2,6 +2,12 @@
 
 **Equipo 5 | Ingeniería Financiera | Laboratorio de Sistemas de Trading**
 
+**Integrantes:**
+
+- Adrián Marcelo Ballesteros Herrera
+- Erik del Castillo Román
+- Jesús Emmanuel Flores Cortés
+
 Proyecto de investigación reproducible que analiza tres pares de activos, estima coberturas dinámicas, construye señales basadas en innovaciones VECM y evalúa una estrategia de dos patas con restricciones operativas. **No constituye una recomendación de inversión.**
 
 ## Resumen del proyecto
