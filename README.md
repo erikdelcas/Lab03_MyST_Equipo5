@@ -55,7 +55,20 @@ Para ejecutar el notebook, si no están incluidas las dependencias necesarias en
 python -m pip install -r requirements_notebook.txt
 ```
 
-En Windows la activación del entorno virtual es diferente. **No incluyas `.venv/` en GitHub.** Si los datos no están cacheados, la descarga inicial requiere conexión.
+## Instalación desde cero (Windows)
+
+En PowerShell, desde la carpeta raíz del proyecto:
+
+```powershell
+py -3 -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+Si PowerShell bloquea `Activate.ps1` por la política de ejecución, habilitarla solo para la sesión actual con `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` y volver a activar. En `cmd` la activación es `.venv\Scriptsctivate.bat`. Las versiones de `requirements.txt` se fijaron trabajando en macOS con Python 3.14; si `pip` no encuentra *wheels* para tu versión de Python en Windows, revisar la versión del intérprete antes de cambiar dependencias.
+
+**No incluyas `.venv/` en GitHub.** Si los datos no están cacheados, la descarga inicial requiere conexión.
 
 ## Ejecución reproducible
 
@@ -97,7 +110,7 @@ Lab03_MyST_Equipo5/
 ├── tests/                # Pruebas automatizadas
 ├── notebooks/            # Notebook principal
 ├── artifacts/            # Resultados regenerables CSV
-├── docs/reporte.pdf      # Reporte técnico
+├── docs/                 # Reporte ejecutivo (PDF), figuras y evidencia previa
 └── project_management/   # Gestión y contribuciones del equipo
 ```
 
@@ -115,7 +128,7 @@ Las tablas `artifacts/metrics.csv` y `artifacts/walkforward_oos_comparison.csv` 
 
 - [ ] Volver a ejecutar las pruebas y guardar el resultado obtenido.
 - [ ] Ejecutar toda la secuencia de scripts, regenerando artefactos con el código final.
-- [ ] Confirmar que notebook, dashboard y `docs/reporte.pdf` utilizan la **misma versión**.
+- [ ] Confirmar que notebook, dashboard y `docs/Lab03_Reporte_Ejecutivo.pdf` utilizan la **misma versión**.
 - [ ] Comprobar que Johansen móvil, bitácora, cifras walk-forward y rebalanceo se muestran sin errores.
 - [ ] Verificar que `.gitignore` excluye el entorno virtual, cachés y archivos no deseados; si excluye backtests diarios, regenerarlos para exponer.
 - [ ] Completar `project_management/` con integrantes, roles, fechas, sprints y retrospectiva **reales**.
